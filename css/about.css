@@ -199,10 +199,20 @@ header .container {
     font-size: 3.4rem;
 }
 
-.page-content p,
-.page-content ul {
+.page-content p
+{
     margin-bottom: 20px;
     text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+}
+/* Kaushal */
+.page-content ul {
+    margin-bottom: 20px;
+    text-align: left;
     display: inline-block;
     width: 100%;
     padding-top: 10px;
