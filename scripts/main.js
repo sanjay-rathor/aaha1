@@ -62,3 +62,26 @@ document.querySelectorAll('.has-submenu > a').forEach(function(parentLink) {
                 });
             }
         });
+
+        // For program dropdown
+
+const submenuHTML = `
+<li><a href="/programs">View all Programs</a></li>
+<li><a href="/programs/operation-theatre-technology">B.Sc Operation Theatre & Anaesthesia Technology</a></li>
+<li><a href="/programs/dialysis-technology">B.Sc Dialysis Technology</a></li>
+<li><a href="/programs/physician-assistant">B.Sc Physician Assistant</a></li>
+<li><a href="/programs/medical-laboratory-technology">B.Sc Medical Laboratory Technology</a></li>
+<li><a href="#">B.Sc Respiratory Technology</a></li>
+<li><a href="#">B.Sc. Emergency Medical Technology</a></li>
+<li><a href="#">Bachelor of Optometry</a></li>
+<li><a href="/programs/critical-care-technology">B.Sc Critical Care Technology</a></li>
+<li><a href="#">B.Sc Cardiovascular Technology</a></li>
+`;
+
+document.addEventListener("DOMContentLoaded", function () {
+const submenu = document.getElementById("programs-submenu");
+if (submenu) {
+  submenu.innerHTML = submenuHTML;
+}
+});
+
