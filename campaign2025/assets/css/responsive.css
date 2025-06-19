@@ -3,7 +3,7 @@
         padding: 0 200px;
     }
     .form-sec {
-        padding: 13px 2px 20px;
+        padding: 13px 2px 0;
     }
     .sbt {
         padding: 5px 20px;
@@ -29,8 +29,8 @@
         padding: 5px 20px;
     }
     .formSec .row .col-lg-2 {
-        top: 170px;
-        width: 300px;
+        top: 66px;
+        width: 330px;
     }
     .proSlider .slick-slide.slick-current .item::after {
         height: 114%;
