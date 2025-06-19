@@ -1,0 +1,473 @@
+@media(max-width:1600px) {
+    .container {
+        padding: 0 200px;
+    }
+    .form-sec {
+        padding: 13px 2px 0;
+    }
+    .sbt {
+        padding: 5px 20px;
+        font-size: 15px;
+    }
+    .checkbox-label {
+        font-size: 12px;
+    }
+    .logo img {
+        width: 230px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .banCon h4 {
+        font-size: 21px;
+    }
+    .banCon h5 {
+        font-size: 30px;
+    }
+    .banCon a {
+        font-size: 30px;
+        padding: 5px 20px;
+    }
+    .formSec .row .col-lg-2 {
+        top: 66px;
+        width: 330px;
+    }
+    .proSlider .slick-slide.slick-current .item::after {
+        height: 114%;
+    }
+    .proSlider figcaption {
+        font-size: 20px;
+        width: 75%;
+    }
+    .banCon {
+        padding-top: 56px;
+    }
+    .setCon .seLeft h4,
+    .place h4,
+    .handOn h4 {
+        font-size: 25px;
+    }
+    p,
+    li {
+        font-size: 16px;
+    }
+    .stsa {
+        height: 309px;
+    }
+    .coreSlider .coreCon figcaption {
+        bottom: 80px;
+    }
+    .stsa figure {
+        width: 650px;
+    }
+    .banner .container {
+        padding: 0 120px;
+    }
+}
+
+@media(max-width:1400px) {
+    .formSec .row .col-lg-2 {
+        top: 80px;
+    }
+    .container {
+        padding: 0 160px;
+    }
+    h2 {
+        font-size: 45px;
+    }
+    .allied .heading h5 {
+        font-size: 30px;
+    }
+    .proSlider figcaption {
+        font-size: 20px;
+    }
+    .programmesOff {
+        padding-bottom: 70px;
+    }
+    .proS .progArrow {
+        top: -57px;
+    }
+}
+
+@media(max-width:1200px) {
+    .container {
+        padding: 0 70px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .banCon h4 {
+        font-size: 16px;
+    }
+    .banCon h5 {
+        font-size: 25px;
+    }
+    .banCon a {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .allied .heading h5 {
+        font-size: 25px;
+        padding: 20px 0;
+    }
+    .proSlider figcaption {
+        font-size: 16px;
+    }
+    .setCon,
+    .place {
+        padding: 20px 20px;
+    }
+    .stsa figure {
+        width: 500px;
+    }
+    .stsa {
+        height: 247px;
+    }
+    .handOn br {
+        display: none;
+    }
+    .handOn {
+        padding-right: 80px;
+    }
+    .coreSlider .slick-list {
+        padding: 0px 220px !important;
+    }
+    .ourArrow {
+        padding: 0 170px;
+    }
+    .appo {
+        padding: 30px;
+    }
+    .appo h4 {
+        font-size: 30px;
+    }
+    .formSec .row .col-lg-2 {
+        position: unset;
+        width: 100%;
+    }
+    .allied .row {
+        gap: 30px 0;
+    }
+    .proS .progArrow {
+        right: 140px;
+    }
+}
+
+@media(max-width:992px) {
+    .setsApollo .row .col-lg-6:nth-child(2) .setCon figure {
+        width: 30%;
+    }
+    .stsa {
+        height: auto;
+        padding: 0;
+    }
+    .handOn {
+        padding-right: 0;
+    }
+    .setsApollo .row {
+        align-items: center;
+        padding-left: 20px;
+    }
+    .stsa figure {
+        width: auto;
+        position: unset;
+        margin-top: -35px;
+    }
+    .coreSlider .coreCon figcaption h5 {
+        font-size: 20px;
+    }
+    .coreSlider .slick-list {
+        padding: 0px 140px !important;
+    }
+    .coreSlider .coreCon figcaption br {
+        display: none;
+    }
+    .coreSlider .coreCon figcaption {
+        bottom: 15px;
+        padding: 0 10px;
+        left: 0;
+    }
+    .appo h4 {
+        font-size: 20px;
+    }
+    .accre .heading h2 {
+        padding: 20px 0 45px;
+    }
+    .ourArrow {
+        padding: 0 90px;
+    }
+}
+
+@media(max-width:768px) {
+    .logo img {
+        width: 180px;
+    }
+    .container {
+        padding: 0 25px;
+    }
+    .banner {
+        height: 315px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .banCon h5 {
+        font-size: 16px;
+    }
+    .banCon h4 {
+        font-size: 12px;
+    }
+    .banCon a {
+        font-size: 14px;
+    }
+    .banCon {
+        padding-top: 80px;
+    }
+    .banCon h1 {
+        padding: 10px 0px 15px;
+    }
+    .banner figure img {
+        width: 30px;
+    }
+    .logo img {
+        width: 135px;
+    }
+    .logo {
+        top: 10px;
+        left: 10px;
+    }
+    .banCon a {
+        margin-top: 25px;
+    }
+    /* .formSec .container {
+        padding: 0;
+    } */
+    h2 {
+        font-size: 30px;
+    }
+    .programmesOff h4 {
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    .proS .progArrow {
+        right: 35px;
+        top: -52px;
+    }
+    .proSlider figcaption {
+        font-size: 14px;
+    }
+    .proSlider .slick-list {
+        padding: 65px 50px 65px !important;
+    }
+    .setsApollo .heading h2 {
+        padding: 25px 0;
+    }
+    .setCon .seLeft h4,
+    .place h4,
+    .handOn h4 {
+        padding-bottom: 10px;
+    }
+    .setsApollo .row {
+        gap: 10px 0;
+    }
+    .stsa .row {
+        gap: 50px;
+        padding: 25px 0 0 0;
+    }
+    .handOn {
+        padding: 0 20px;
+    }
+    .ourArrow {
+        padding: 0;
+        position: unset;
+        transform: unset;
+        justify-content: center;
+        gap: 10px;
+    }
+    p,
+    li {
+        font-size: 12px;
+    }
+    .coreSlider .coreCon figcaption h5 {
+        padding-bottom: 10px;
+    }
+    .coreSlider .slick-list {
+        margin: 0 -10px;
+    }
+    .coreSlider .slick-list .slick-slide {
+        margin: 0 10px;
+    }
+    .appo {
+        padding: 15px;
+    }
+    .appo h4 {
+        font-size: 18px;
+    }
+    .application .heading h2 {
+        padding: 25px 0 40px;
+    }
+    footer p {
+        font-size: 14px;
+        padding: 0 0 10px;
+    }
+    .application {
+        padding: 100px 0 50px;
+        margin-top: -64px;
+    }
+    .setsApollo {
+        padding-bottom: 0;
+    }
+}
+
+@media(max-width:576px) {
+    .banner {
+        height: auto;
+    }
+    .allied {
+        padding-top: 0;
+    }
+    .banner .container {
+        padding: 0 15px;
+    }
+    .allied figure {
+        display: none;
+    }
+    .container {
+        padding: 0 15px;
+    }
+    .logo img {
+        width: 105px;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    .banCon h5 {
+        font-size: 12px;
+    }
+    .banCon h4 {
+        font-size: 12px;
+        width: 46%;
+    }
+    .banCon a {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+    .banCon {
+        padding: 65px 0 10px;
+    }
+    .allied .heading h5 {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+    h2 {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+    .proSlider figcaption {
+        font-size: 12px;
+    }
+    .proSlider figcaption br {
+        display: none;
+    }
+    .coreSlider .coreCon figcaption {
+        bottom: 23px;
+    }
+    .coreSlider .coreCon figcaption h5 {
+        padding-bottom: 5px;
+        font-size: 17px;
+    }
+    section {
+        padding: 40px 0;
+    }
+    .proS .progArrow .slick-arrow i {
+        font-size: 20px;
+    }
+    .proS .progArrow {
+        right: 20px;
+        top: -42px;
+    }
+    .setsApollo .heading figure img,
+    .ourCore .heading figure img,
+    .application .heading figure img,
+    .accre .heading figure img {
+        width: 100px;
+    }
+    h2 br {
+        display: none;
+    }
+    .setsApollo .row .col-lg-6:nth-child(2) .setCon figure,
+    .setsApollo .row .col-lg-6:nth-child(2) .setCon .seLeft {
+        width: 100%;
+        position: unset;
+    }
+    .setsApollo .row .col-lg-6:nth-child(2) .setCon {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    .setsApollo .row {
+        padding-left: 0;
+    }
+    .setCon .seLeft h4,
+    .place h4,
+    .handOn h4 {
+        font-size: 20px;
+    }
+    .ourCore .heading h2 {
+        padding: 25px 0;
+    }
+    .coreSlider .slick-list {
+        padding: 0px 50px !important;
+    }
+    .ourArrow .slick-arrow i {
+        font-size: 20px;
+    }
+    .appo h4 {
+        font-size: 20px;
+        padding-bottom: 7px;
+    }
+    .appo {
+        padding: 30px 20px;
+    }
+    .box {
+        width: 15px;
+        height: 15px;
+        top: -5px;
+        left: -1px;
+    }
+    .application .row .col-lg-4:nth-child(3) .appo .box {
+        right: -1px;
+    }
+    .application .row .col-lg-4:nth-child(2) .appo::before {
+        right: unset;
+        left: 0;
+    }
+    .application .row .col-lg-4:nth-child(2) .appo::after {
+        bottom: unset;
+        top: 0;
+        background: linear-gradient(90deg, rgba(121, 165, 68, 1) 0%, rgba(12, 123, 153, 1) 100%);
+    }
+    .proSlider .item::after {
+        width: 90%;
+    }
+    .application .row .col-lg-4:nth-child(3) .appo {
+        box-shadow: 0px 45px 35px -55px #00000052;
+    }
+    .govSlider {
+        gap: 20px;
+    }
+    .govSlider .item figure img {
+        aspect-ratio: 1;
+    }
+    .govSlider .item::after {
+        left: -12px;
+        width: 1px;
+    }
+    .accre .heading h2 {
+        padding: 20px 0 20px;
+    }
+    .banner figure img {
+        width: 25px;
+    }
+}
