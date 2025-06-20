@@ -114,10 +114,6 @@ body {
     padding: 20px 0px 15px;
 }
 
-.banCon h1 span {
-    color: var(--yellow);
-}
-
 .banCon h4 {
     font-size: 28px;
     color: #fff;
@@ -137,11 +133,7 @@ body {
 }
 
 .banCon h1 span:last-child {
-    border-top: 2px solid white;
-    display: block;
-    width: fit-content;
-    padding-top: 20px;
-    margin-top: 20px;
+    text-transform: lowercase;
 }
 
 .formSec .row .col-lg-2 {
@@ -269,6 +261,10 @@ body {
     transform: translate(-50%, 0);
     width: 80%;
     line-height: 1.2;
+}
+
+.proSlider figcaption span {
+    text-transform: lowercase;
 }
 
 .proCon::after {
