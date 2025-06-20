@@ -848,10 +848,3 @@ footer {
         padding: 4rem 0;
     }
 }
-
-
-/* css written by devraj  */
-
-.features-list .feature-card:nth-child(3) {
-    display: none;
-}
