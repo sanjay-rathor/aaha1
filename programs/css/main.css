@@ -998,11 +998,7 @@ footer {
 }
 
 .hero-text {
-    flex: 1 1 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    z-index: 1;
+    width: 60%;
     font-family: var(--font-heading);
 }
 
@@ -1035,34 +1031,16 @@ footer {
 }
 
 .hero-img {
-    flex: 1 1 28%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    z-index: 1;
+    width: 40%;
     height: 100%;
-    min-width: 220px;
-    max-width: 30%;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    top: 0;
+    margin-top: 20px;
 }
 
 .hero-img img {
     width: 100%;
     height: 100%;
-    max-width: none;
-    max-height: none;
-    border-radius: 0;
-    box-shadow: none;
-    background: none;
-    padding: 0;
-    object-fit: cover;
-    border: none;
-    display: block;
+    object-fit: contain;
+    object-position: right;
 }
 
 @media (max-width: 1024px) {
@@ -1640,6 +1618,10 @@ td {
 .alumni-card p {
     font-size: 1.4rem;
     color: var(--gray);
+}
+
+.cta-button a {
+    -webkit-text-fill-color: #ffffff;
 }
 
 
