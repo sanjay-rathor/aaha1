@@ -936,3 +936,7 @@ textarea {
         font-size: 3rem;
     }
 }
+
+.hero-slide-buttons {
+    display: none;
+}
