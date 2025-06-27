@@ -421,6 +421,9 @@ header .container {
     line-height: 1.5;
     margin-bottom: 0;
 }
+.promoter-title {
+    text-align: left !important;
+}
 /* Make LinkedIn icon always clickable and above overlay */
 .linkedin-icon {
     position: absolute;

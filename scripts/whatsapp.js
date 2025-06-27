@@ -11,7 +11,7 @@ function closeAllModals() {
 
 function sendWhatsAppMessage() {
   const program = document.getElementById('wa-program-select').value;
-  const phoneNumber = '+917989039796'; // Replace with your WhatsApp number
+  const phoneNumber = '+918712409851'; // Replace with your WhatsApp number
 
   if (!program) {
     alert("Please select a program.");
