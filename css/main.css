@@ -644,6 +644,7 @@ footer {
 .whatsapp-btn {
   top: 45%;
   background-color: #25d366;
+  
 }
 
 .whatsapp-btn:hover {
@@ -667,6 +668,7 @@ footer {
   cursor: pointer;
   z-index: 1000;
   transition: transform 0.3s ease;
+  display: none;
 }
 
 .whatsapp-circle-btn:hover {

@@ -210,7 +210,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <select id="specialisation-filter">
                         <option value="">All</option>
                         <option value="Diagnostics">Diagnostics</option>
-                        <option value="Administration">Administration</option>
+                        <!-- <option value="Administration">Administration</option> -->
                         <option value="Psychology">Psychology</option>
                         <option value="Therapy">Therapy</option>
                     </select>
@@ -219,9 +219,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <label for="duration-filter">Duration:</label>
                     <select id="duration-filter">
                         <option value="">All</option>
-                        <option value="2">2 Years</option>
-                        <option value="3">3 Years</option>
-                        <option value="4">4 Years</option>
+                        <!-- <option value="2">2 Years</option> -->
+                        <option value="3">4 Years</option>
+                        <option value="4">5 Years</option>
                     </select>
                 </div>
             </form>
@@ -236,17 +236,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             // Map program names to specialisations
             const SPECIALISATION_MAP = {
-                "MBA – Health Service Management": "Administration",
+                "B.Sc Operation Theatre & Anaesthesia Technology": "Therapy",
+                "B.Sc Dialysis Technology": "Therapy",
                 "B.Sc Physician Assistant": "Diagnostics",
                 "B.Sc Medical Laboratory Technology": "Diagnostics",
-                "B.Sc Operation Theatre & Anaesthesia Technology": "Therapy",
+                "B.Sc Respiratory Technology":"Diagnostics",
+                "B.Sc. Emergency Medical Technology":"Diagnostics",
+                "Bachelor of Optometry":"Diagnostics",
+                "B.Sc Critical Care Technology": "Diagnostics",
+                "B.Sc. Cardiovascular Technology":"Diagnostics",
+
+                "MBA – Health Service Management": "Administration",
                 "B.Sc Radiotherapy Technology": "Therapy",
-                "B.Sc Critical Care Technology": "Therapy",
                 "B.Sc Nuclear Medicine Technology": "Diagnostics",
-                "B.Sc Dialysis Technology": "Therapy",
                 "B.Sc Health Psychology": "Psychology",
                 "B.Sc Medical Imaging Technology": "Diagnostics"
+                
+                
+                
+                
+
+
             };
+
 
             function filterPrograms() {
                 const spec = specialisationFilter.value;
@@ -331,10 +343,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <option value="dialysis-technology">B.Sc Dialysis Technology</option>
                         <option value="physician-assistant">B.Sc Physician Assistant</option>
                         <option value="medical-laboratory-technology">B.Sc Medical Laboratory Technology</option>
-                        <option value="#">B.Sc Respiratory Technology</option>
-                        <option value="#">B.Sc. Emergency Medical Technology </option>
-                        <option value="#">Bachelor of Optometry </option>
+                        <option value="respiratory-technology">B.Sc Respiratory Technology</option>
+                        <option value="emergency-medical-technology">B.Sc. Emergency Medical Technology</option>
+                        <option value="bachelor-of-optometry">Bachelor of Optometry</option>
                         <option value="critical-care-technology">B.Sc Critical Care Technology</option>
+                        <option value="cardiovascular-technology">B.Sc. Cardiovascular Technology</option>
                     </select>
                     <label for="compare-program-2">Programme 2:</label>
                     <select id="compare-program-2" required>
@@ -354,10 +367,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <option value="dialysis-technology">B.Sc Dialysis Technology</option>
                         <option value="physician-assistant">B.Sc Physician Assistant</option>
                         <option value="medical-laboratory-technology">B.Sc Medical Laboratory Technology</option>
-                        <option value="#">B.Sc Respiratory Technology</option>
-                        <option value="#">B.Sc. Emergency Medical Technology </option>
-                        <option value="#">Bachelor of Optometry </option>
+                        <option value="respiratory-technology">B.Sc Respiratory Technology</option>
+                        <option value="emergency-medical-technology">B.Sc. Emergency Medical Technology</option>
+                        <option value="bachelor-of-optometry">Bachelor of Optometry </option>
                         <option value="critical-care-technology">B.Sc Critical Care Technology</option>
+                        <option value="cardiovascular-technology">B.Sc. Cardiovascular Technology</option>
                     </select>
                     <button type="submit" class="btn">Compare</button>
                 </div>
@@ -378,67 +392,97 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             },
             "physician-assistant": {
                 name: "B.Sc Physician Assistant",
-                desc: "A 3-year undergraduate program that trains students to assist doctors in clinical procedures, patient care, and diagnostics. Includes hands-on clinical training in hospitals.",
-                duration: "3 Years",
+                desc: "A 4-year undergraduate program that trains students to assist doctors in clinical procedures, patient care, and diagnostics. Includes hands-on clinical training in hospitals.",
+                duration: "4 Years",
                 career: "Physician Assistant, Clinical Associate, Medical Officer, Emergency Medical Assistant.",
                 fee: 250000
             },
             "medical-laboratory-technology": {
                 name: "B.Sc Medical Laboratory Technology",
-                desc: "A 3-year program focused on laboratory diagnostics, pathology, microbiology, and biochemistry. Prepares students for roles in medical labs and diagnostic centers.",
-                duration: "3 Years",
+                desc: "A 4-year program focused on laboratory diagnostics, pathology, microbiology, and biochemistry. Prepares students for roles in medical labs and diagnostic centers.",
+                duration: "4 Years",
                 career: "Lab Technologist, Pathology Lab Manager, Clinical Research Associate, Laboratory Supervisor.",
-                fee: 200000
+                fee: 250000
             },
             "operation-theatre-technology": {
                 name: "B.Sc Operation Theatre & Anaesthesia Technology",
-                desc: "A 3-year course training students in operation theatre protocols, surgical assistance, and anaesthesia techniques.",
-                duration: "3 Years",
+                desc: "A 4-year course training students in operation theatre protocols, surgical assistance, and anaesthesia techniques.",
+                duration: "4 Years",
                 career: "OT Technologist, Anaesthesia Assistant, Surgical Assistant, OT Manager.",
-                fee: 200000
+                fee: 250000
             },
             "radiotherapy-technology": {
                 name: "B.Sc Radiotherapy Technology",
-                desc: "A 3-year undergraduate program focusing on cancer treatment using radiation therapy, patient care, and radiological equipment handling.",
-                duration: "3 Years",
+                desc: "A 4-year undergraduate program focusing on cancer treatment using radiation therapy, patient care, and radiological equipment handling.",
+                duration: "4 Years",
                 career: "Radiotherapy Technologist, Radiation Safety Officer, Oncology Assistant.",
-                fee: 200000
+                fee: 250000
             },
             "critical-care-technology": {
                 name: "B.Sc Critical Care Technology",
-                desc: "A 3-year program preparing students for critical care units, ICU management, and emergency care support.",
-                duration: "3 Years",
+                desc: "A 4-year program preparing students for critical care units, ICU management, and emergency care support.",
+                duration: "4 Years",
                 career: "Critical Care Technologist, ICU Technician, Emergency Care Assistant.",
-                fee: 200000
+                fee: 250000
             },
             "nuclear-medicine-technology": {
                 name: "B.Sc Nuclear Medicine Technology",
-                desc: "A 3-year course covering nuclear imaging, radiopharmaceuticals, and PET/CT scan operations.",
-                duration: "3 Years",
+                desc: "A 4-year course covering nuclear imaging, radiopharmaceuticals, and PET/CT scan operations.",
+                duration: "4 Years",
                 career: "Nuclear Medicine Technologist, PET/CT Technologist, Radiology Assistant.",
-                fee: 200000
+                fee: 250000
             },
             "dialysis-technology": {
                 name: "B.Sc Dialysis Technology",
-                desc: "A 3-year undergraduate program focusing on dialysis procedures, nephrology, and patient care for renal failure.",
-                duration: "3 Years",
+                desc: "A 4-year undergraduate program focusing on dialysis procedures, nephrology, and patient care for renal failure.",
+                duration: "4 Years",
                 career: "Dialysis Technologist, Renal Care Technician, Dialysis Center Manager.",
-                fee: 200000
+                fee: 250000
             },
             "health-psychology": {
                 name: "B.Sc Health Psychology",
-                desc: "A 3-year program exploring psychological principles in healthcare, patient counseling, and mental health support.",
-                duration: "3 Years",
+                desc: "A 4-year program exploring psychological principles in healthcare, patient counseling, and mental health support.",
+                duration: "4 Years",
                 career: "Health Psychologist, Counselor, Rehabilitation Specialist.",
-                fee: 200000
+                fee: 250000
             },
             "medical-imaging-technology": {
                 name: "B.Sc Medical Imaging Technology",
-                desc: "A 3-year course teaching radiography, CT, MRI, and ultrasound imaging techniques.",
-                duration: "3 Years",
+                desc: "A 4-year course teaching radiography, CT, MRI, and ultrasound imaging techniques.",
+                duration: "4 Years",
                 career: "Radiographer, MRI/CT Technologist, Imaging Department Supervisor.",
-                fee: 200000
+                fee: 250000
+            },
+            "respiratory-technology": {
+                name: "B.Sc. Respiratory Technology",
+                desc: "A comprehensive 4-year programme designed to transform students into skilled respiratory care professionals.",
+                duration: "4 Years",
+                career: "Radiographer, MRI/CT Technologist, Imaging Department Supervisor.",
+                fee: 250000
+            },
+            "emergency-medical-technology": {
+                name: "B.Sc. Emergency Medical Technology",
+                desc: "A comprehensive 4-year programme designed to transform students into skilled emergency care professionals.",
+                duration: "4 Years",
+                career: "Emergency Medical Technician, Trauma Care, Pre-Hospital Care Provider ",
+                fee: 250000
+            },
+            "bachelor-of-optometry": {
+                name: "Bachelor of Optometry",
+                desc: "A comprehensive 5-year programme designed to develop skilled optometry professionals in vision assessment, clinical diagnostics and optical technology for diverse healthcare settings.",
+                duration: "5 Years",
+                career: "Eye Care ",
+                fee: 250000
             }
+            ,
+            "cardiovascular-technology": {
+                name: "B.Sc. Cardiovascular Technology",
+                desc: "A comprehensive 5-year programme designed to develop skilled optometry professionals in vision assessment, clinical diagnostics and optical technology for diverse healthcare settings.",
+                duration: "4 Years",
+                career: "Eye Care ",
+                fee: 250000
+            }
+
         };
 
         // Hide selected option in Program 2
@@ -595,10 +639,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <h4>Quick Links</h4>
                         <ul>
                             <li><a href="\index">Home</a></li>
-                            <li><a href="programs">Programmes</a></li>
-                            <li><a href="centres">Centres</a></li>
-                            <li><a href="admissions">Admissions</a></li>
-                            <li><a href="contact">Contact</a></li>
+                            <li><a href="/programs">Programmes</a></li>
+                            <li><a href="/centres">Centres</a></li>
+                            <li><a href="/admissions">Admissions</a></li>
+                            <li><a href="/contact">Contact</a></li>
                             <li><a href="/scholarship">Scholarship</a></li>
                         </ul>
                     </div>
