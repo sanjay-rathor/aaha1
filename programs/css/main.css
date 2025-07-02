@@ -1010,7 +1010,7 @@ footer {
     margin-bottom: 1.6rem;
     font-weight: 700;
     letter-spacing: 0;
-    color: var(--white);
+    color: var(--primary);
     line-height: 1.15;
     text-shadow: none;
     font-family: var(--font-heading);
