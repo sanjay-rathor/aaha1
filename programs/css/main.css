@@ -543,11 +543,11 @@ nav ul li a.active {
 }
 .hero-cardio {
   background-image: linear-gradient(to right, rgb(0 0 0 / 89%), rgb(0 0 0 / 0%)),
-    url("../assets/optemetory.jpg") !important;
+    url("../assets/cardiovascular.jpg") !important;
 }
 .hero-optometry {
   background-image: linear-gradient(to right, rgb(0 0 0 / 89%), rgb(0 0 0 / 0%)),
-    url("../assets/cardiovascular.jpg") !important;
+    url("../assets/optemetory.jpg") !important;
 }
 .hero-respiratory {
   background-image: linear-gradient(to right, rgb(0 0 0 / 89%), rgb(0 0 0 / 0%)),
@@ -1808,7 +1808,7 @@ td {
         rgb(0 0 0 / 60%),
         rgb(0 0 0 / 75%)
       ),
-      url("../assets/optemetory.jpg") !important;
+      url("../assets/cardiovascular.jpg") !important;
   }
   .hero-optometry {
     background-position: 90% !important;
@@ -1817,7 +1817,7 @@ td {
         rgb(0 0 0 / 60%),
         rgb(0 0 0 / 75%)
       ),
-      url("../assets/cardiovascular.jpg") !important;
+      url("../assets/optemetory.jpg") !important;
   }
   .hero-respiratory {
     background-position: 90% !important;
