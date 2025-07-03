@@ -988,7 +988,7 @@ footer {
     padding: 6rem 2rem 0;
     background: linear-gradient(90deg, var(--primary) 0%, var(--primary-light) 100%);
     color: var(--gray-dark);
-    border-radius: 1.2rem;
+    /* border-radius: 1.2rem; */
     box-shadow: 0 4px 16px rgba(44, 62, 80, 0.08);
     position: relative;
     overflow: hidden;
