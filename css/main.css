@@ -645,7 +645,6 @@ footer {
 .whatsapp-btn {
   top: 45%;
   background-color: #25d366;
-  
 }
 
 .whatsapp-btn:hover {
@@ -836,5 +835,15 @@ footer {
   }
   .page-hero {
     padding: 4rem 0;
+  }
+}
+/*  written by Kaushal  */
+
+@media (max-width: 576px) {
+  .footer-logo {
+    width: auto;
+  }
+  .page-hero .container{
+    padding-top: 70%;
   }
 }

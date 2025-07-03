@@ -1730,3 +1730,14 @@ td {
 .features-list .feature-card:nth-child(3) {
     display: none;
 }
+/*  written by Kaushal  */
+
+@media (max-width: 576px) {
+    .footer-logo {
+      width: auto;
+      
+    }
+    .footer-content{
+        text-align: left;
+    }
+  }

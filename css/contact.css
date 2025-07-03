@@ -387,3 +387,11 @@ textarea {
         grid-template-columns: 1fr;
     }
 }
+
+  /*  written by Kaushal  */
+
+  @media (max-width: 576px) {
+    .page-hero .container{
+        padding-top: 70%;
+    }
+  }

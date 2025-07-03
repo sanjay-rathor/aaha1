@@ -718,3 +718,12 @@ header .container {
         height: auto;
     }
 }
+
+
+/*  written by Kaushal  */
+
+@media (max-width: 576px) {
+    .page-hero .container{
+        padding-top: 70%;
+    }
+  }

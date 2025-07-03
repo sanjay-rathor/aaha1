@@ -298,3 +298,13 @@ header .container {
         color: #000000;
     }
 }
+  /*  written by Kaushal  */
+
+
+
+
+@media (max-width: 576px) {
+    .page-hero .container{
+        padding-top: 70%;
+    }
+  }
