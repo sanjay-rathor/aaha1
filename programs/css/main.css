@@ -1814,8 +1814,8 @@ td {
     background-position: 90% !important;
     background-image: linear-gradient(
         to top,
-        rgb(0 0 0 / 60%),
-        rgb(0 0 0 / 75%)
+        rgb(0 0 0 / 70%),
+        rgb(0 0 0 / 80%)
       ),
       url("../assets/optemetory.jpg") !important;
   }
