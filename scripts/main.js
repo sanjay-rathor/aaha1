@@ -66,7 +66,7 @@ document.querySelectorAll('.has-submenu > a').forEach(function(parentLink) {
         // For program dropdown
 
 const submenuHTML = `
-<li><a href="/programs">View all Programs</a></li>
+<li><a href="/programs/">View all Programs</a></li>
 <li><a href="/programs/bsc-operation-theatre-technology/">B.Sc Operation Theatre & Anaesthesia Technology</a></li>
 <li><a href="/programs/bsc-dialysis-technology/">B.Sc Dialysis Technology</a></li>
 <li><a href="/programs/bsc-physician-assistant/">B.Sc Physician Assistant</a></li>
