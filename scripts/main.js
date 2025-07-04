@@ -68,9 +68,9 @@ document.querySelectorAll('.has-submenu > a').forEach(function(parentLink) {
 const submenuHTML = `
 <li><a href="/programs">View all Programs</a></li>
 <li><a href="/programs/bsc-operation-theatre-technology">B.Sc Operation Theatre & Anaesthesia Technology</a></li>
-<li><a href="/programs/dialysis-technology">B.Sc Dialysis Technology</a></li>
+<li><a href="/programs/bsc-dialysis-technology">B.Sc Dialysis Technology</a></li>
 <li><a href="/programs/bsc-physician-assistant">B.Sc Physician Assistant</a></li>
-<li><a href="/programs/medical-laboratory-technology">B.Sc Medical Laboratory Technology</a></li>
+<li><a href="/programs/bsc-medical-laboratory-technology">B.Sc Medical Laboratory Technology</a></li>
 <li><a href="/programs/bsc-respiratory-technology">B.Sc Respiratory Technology</a></li>
 <li><a href="/programs/bsc-emergency-medical-technology">B.Sc Emergency Medical Technology</a></li>
 <li><a href="/programs/bachelor-of-optometry/">Bachelor of Optometry</a></li>
