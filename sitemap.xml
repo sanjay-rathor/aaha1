@@ -4,108 +4,86 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
-  <loc>https://apolloknowledge.netlify.app/</loc>
-  <lastmod>2025-06-01T16:54:42+00:00</lastmod>
+  <loc>https://apolloaha.com/</loc>
+  <lastmod>2025-07-15T10:48:27+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://apolloknowledge.netlify.app/about-us/</loc>
-  <lastmod>2025-06-01T16:54:42+00:00</lastmod>
+  <loc>https://apolloaha.com/about-us/</loc>
+  <lastmod>2025-07-15T10:48:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://apolloknowledge.netlify.app/programs/</loc>
-  <lastmod>2025-06-01T16:54:42+00:00</lastmod>
+  <loc>https://apolloaha.com/admissions/</loc>
+  <lastmod>2025-07-15T10:48:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://apolloknowledge.netlify.app/centres/</loc>
-  <lastmod>2025-06-01T16:54:42+00:00</lastmod>
+  <loc>https://apolloaha.com/contact/</loc>
+  <lastmod>2025-07-15T10:48:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://apolloknowledge.netlify.app/admissions/</loc>
-  <lastmod>2025-06-01T16:54:42+00:00</lastmod>
+  <loc>https://apolloaha.com/programs/</loc>
+  <lastmod>2025-07-15T10:48:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://apolloknowledge.netlify.app/contact/</loc>
-  <lastmod>2025-06-01T16:54:42+00:00</lastmod>
+  <loc>https://apolloaha.com/centres/</loc>
+  <lastmod>2025-07-15T10:48:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://apolloknowledge.netlify.app/enquiry-page/</loc>
-  <lastmod>2025-06-01T16:54:42+00:00</lastmod>
+  <loc>https://apolloaha.com/scholarship/</loc>
+  <lastmod>2025-07-15T10:48:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://apolloknowledge.netlify.app/programs/health-service-management/</loc>
-  <lastmod>2025-06-01T16:54:42+00:00</lastmod>
+  <loc>https://apolloaha.com/programs/bsc-operation-theatre-technology/</loc>
+  <lastmod>2025-07-15T10:48:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://apolloknowledge.netlify.app/programs/physician-assistant/</loc>
-  <lastmod>2025-06-01T16:54:42+00:00</lastmod>
+  <loc>https://apolloaha.com/programs/bsc-dialysis-technology/</loc>
+  <lastmod>2025-07-15T10:48:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://apolloknowledge.netlify.app/programs/medical-laboratory-technology/</loc>
-  <lastmod>2025-06-01T16:54:42+00:00</lastmod>
+  <loc>https://apolloaha.com/programs/bsc-physician-assistant/</loc>
+  <lastmod>2025-07-15T10:48:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://apolloknowledge.netlify.app/programs/operation-theatre-technology/</loc>
-  <lastmod>2025-06-01T16:54:42+00:00</lastmod>
+  <loc>https://apolloaha.com/programs/bsc-medical-laboratory-technology/</loc>
+  <lastmod>2025-07-15T10:48:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://apolloknowledge.netlify.app/programs/radiotherapy-technology/</loc>
-  <lastmod>2025-06-01T16:54:42+00:00</lastmod>
+  <loc>https://apolloaha.com/programs/bsc-respiratory-technology/</loc>
+  <lastmod>2025-07-15T10:48:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://apolloknowledge.netlify.app/programs/critical-care-technology/</loc>
-  <lastmod>2025-06-01T16:54:42+00:00</lastmod>
+  <loc>https://apolloaha.com/programs/bsc-emergency-medical-technology/</loc>
+  <lastmod>2025-07-15T10:48:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://apolloknowledge.netlify.app/programs/nuclear-medicine-technology/</loc>
-  <lastmod>2025-06-01T16:54:42+00:00</lastmod>
+  <loc>https://apolloaha.com/programs/bachelor-of-optometry/</loc>
+  <lastmod>2025-07-15T10:48:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://apolloknowledge.netlify.app/programs/dialysis-technology/</loc>
-  <lastmod>2025-06-01T16:54:42+00:00</lastmod>
+  <loc>https://apolloaha.com/programs/bsc-critical-care-technology/</loc>
+  <lastmod>2025-07-15T10:48:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://apolloknowledge.netlify.app/programs/health-psychology/</loc>
-  <lastmod>2025-06-01T16:54:42+00:00</lastmod>
+  <loc>https://apolloaha.com/programs/bsc-cardiovascular-technology/</loc>
+  <lastmod>2025-07-15T10:48:27+00:00</lastmod>
   <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://apolloknowledge.netlify.app/centres/chennai/</loc>
-  <lastmod>2025-06-01T16:54:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://apolloknowledge.netlify.app/centres/coimbatore/</loc>
-  <lastmod>2025-06-01T16:54:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://apolloknowledge.netlify.app/centres/chittoor/</loc>
-  <lastmod>2025-06-01T16:54:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://apolloknowledge.netlify.app/programs/medical-imaging-technology/</loc>
-  <lastmod>2025-06-01T16:54:42+00:00</lastmod>
-  <priority>0.64</priority>
 </url>
 
 
