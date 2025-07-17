@@ -2,11 +2,15 @@
     .container {
         padding: 0 200px;
     }
+    .boxes .row {
+        --bs-gutter-x: 25px;
+        padding-right: 135px;
+    }
     .form-sec {
         padding: 13px 2px 0;
     }
     .boxi h4 {
-        font-size: 25px;
+        font-size: 20px;
     }
     .boxi {
         padding: 35px;
@@ -15,7 +19,10 @@
         font-size: 22px;
     }
     .banner {
-        height: calc(100vh - 97px);
+        height: calc(100vh - 79px);
+    }
+    .saiSec {
+        margin-top: -140px;
     }
     .saiBox h2 {
         font-size: 40px;
@@ -83,6 +90,10 @@
 @media(max-width:1400px) {
     .formSec .row .col-lg-2 {
         top: 80px;
+    }
+    .boxes .row {
+        --bs-gutter-x: 25px;
+        padding-right: 170px;
     }
     .boxi h4 {
         font-size: 20px;
@@ -261,7 +272,7 @@
         --bs-gutter-x: 5px;
     }
     .boxi {
-        padding: 30px 10px;
+        padding: 20px 10px;
     }
     .boxi h4 {
         font-size: 16px;
@@ -556,5 +567,8 @@
     }
     .banner figure img {
         width: 25px;
+    }
+    .form-sec {
+        border: 2px solid;
     }
 }
