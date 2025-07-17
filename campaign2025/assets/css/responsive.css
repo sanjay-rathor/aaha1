@@ -5,6 +5,21 @@
     .form-sec {
         padding: 13px 2px 0;
     }
+    .boxi h4 {
+        font-size: 25px;
+    }
+    .boxi {
+        padding: 35px;
+    }
+    .banCon h6 {
+        font-size: 22px;
+    }
+    .banner {
+        height: calc(100vh - 97px);
+    }
+    .saiBox h2 {
+        font-size: 40px;
+    }
     .sbt {
         padding: 5px 20px;
         font-size: 15px;
@@ -69,6 +84,9 @@
     .formSec .row .col-lg-2 {
         top: 80px;
     }
+    .boxi h4 {
+        font-size: 20px;
+    }
     .container {
         padding: 0 160px;
     }
@@ -87,11 +105,30 @@
     .proS .progArrow {
         top: -57px;
     }
+    .banner {
+        height: calc(100vh - 79px);
+    }
+    .saiSec {
+        margin-top: -139px;
+    }
 }
 
 @media(max-width:1200px) {
     .container {
         padding: 0 70px;
+    }
+    .boxes {
+        margin-top: 0;
+        padding-top: 60px;
+    }
+    .boxes .row {
+        --bs-gutter-x: 40px;
+    }
+    .saiBox h2 {
+        font-size: 32px;
+    }
+    .saiSec {
+        margin-top: 0;
     }
     h1 {
         font-size: 40px;
@@ -159,6 +196,22 @@
     .setsApollo .row .col-lg-6:nth-child(2) .setCon figure {
         width: 30%;
     }
+    .banner .container {
+        padding: 0 30px;
+    }
+    .banner {
+        background-position: 40% 58%;
+    }
+    .saiSec .row {
+        --bs-gutter-x: 30px;
+    }
+    .saiBox {
+        padding: 25px;
+    }
+    .saiBox h2 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
     .stsa {
         height: auto;
         padding: 0;
@@ -204,6 +257,18 @@
     .logo img {
         width: 180px;
     }
+    .boxes .row {
+        --bs-gutter-x: 5px;
+    }
+    .boxi {
+        padding: 30px 10px;
+    }
+    .boxi h4 {
+        font-size: 16px;
+    }
+    .banCon h6 {
+        font-size: 12px;
+    }
     .container {
         padding: 0 25px;
     }
@@ -215,6 +280,8 @@
     }
     .banCon h5 {
         font-size: 16px;
+        margin-top: 15px;
+        padding: 5px 0;
     }
     .banCon h4 {
         font-size: 12px;
@@ -226,7 +293,7 @@
         padding-top: 80px;
     }
     .banCon h1 {
-        padding: 10px 0px 15px;
+        padding: 6px 0px 6px;
     }
     .banner figure img {
         width: 30px;
@@ -325,6 +392,12 @@
     .banner {
         height: auto;
     }
+    .boxes {
+        padding-top: 29px;
+    }
+    .saiSec {
+        height: auto;
+    }
     .allied {
         padding-top: 0;
     }
@@ -336,6 +409,20 @@
     }
     .container {
         padding: 0 15px;
+    }
+    .boxes .row {
+        justify-content: center;
+        gap: 5px 0;
+    }
+    .saiBox {
+        padding: 14px;
+    }
+    .saiSec .row {
+        --bs-gutter-x: 10px;
+    }
+    .saiBox h2 {
+        font-size: 16px;
+        padding-bottom: 5px;
     }
     .logo img {
         width: 105px;
