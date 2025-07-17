@@ -89,7 +89,7 @@
 
 @media(max-width:1400px) {
     .formSec .row .col-lg-2 {
-        top: 80px;
+        top: 2px;
     }
     .boxes .row {
         --bs-gutter-x: 25px;
@@ -121,6 +121,9 @@
     }
     .saiSec {
         margin-top: -139px;
+    }
+    .form-sec iframe {
+        height: 541px !important;
     }
 }
 
