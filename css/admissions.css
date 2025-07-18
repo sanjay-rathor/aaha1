@@ -3,9 +3,11 @@
     Admissions FAQ Page Styles
 ===============================
 */
+
+
 /* Header */
-* Header */
-header {
+
+* Header */ header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -13,26 +15,34 @@ header {
     background-color: transparent;
     transition: background-color 0.3s ease;
     -webkit-text-fill-color: #FFFFFF;
-    padding: 2rem 0; /* Increase padding for more height */
-    height: auto; /* Optional: Set height to auto if padding is used */
+    padding: 2rem 0;
+    /* Increase padding for more height */
+    height: auto;
+    /* Optional: Set height to auto if padding is used */
 }
-
 
 header.scrolled {
-    background-color: var(--white); /* Replace this with your desired color */
+    background-color: var(--white);
+    /* Replace this with your desired color */
     opacity: 90%;
     -webkit-text-fill-color: #000000;
-    color: #FFFFFF; /* Adjust text color for visibility */
-    box-shadow: 0 6px 9px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+    color: #FFFFFF;
+    /* Adjust text color for visibility */
+    box-shadow: 0 6px 9px rgba(0, 0, 0, 0.1);
+    /* Optional: Add shadow for better visibility */
 }
+
 header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100%; /* Ensure content aligns properly */
+    height: 100%;
+    /* Ensure content aligns properly */
 }
 
+
 /* Program Hero Section */
+
 .page-hero {
     position: relative;
     height: 60vh;
@@ -59,7 +69,9 @@ header .container {
     line-height: 1.6;
 }
 
+
 /* Admission Process Section */
+
 .admission-process {
     padding: 6rem 0;
     background-color: var(--white);
@@ -73,6 +85,12 @@ header .container {
 .process-steps {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 3.2rem;
+}
+
+.elig-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 3.2rem;
 }
 
@@ -125,7 +143,9 @@ header .container {
     color: var(--gray);
 }
 
+
 /* FAQ Section */
+
 .faq-section {
     padding: 6rem 0;
     background-color: var(--gray-lightest);
@@ -185,7 +205,9 @@ header .container {
     transform: rotate(45deg);
 }
 
+
 /* Document Requirements Section */
+
 .document-requirements {
     padding: 6rem 0;
     background-color: var(--white);
@@ -230,7 +252,9 @@ header .container {
     color: var(--gray);
 }
 
+
 /* CTA Section */
+
 .enquiry-cta {
     background-color: var(--primary-light);
     padding: 6rem 0;
@@ -257,14 +281,15 @@ header .container {
     gap: 1.6rem;
 }
 
+
 /* Responsive Styles */
+
 @media (max-width: 1024px) {
     .process-steps {
         grid-template-columns: 1fr;
         max-width: 50rem;
         margin: 0 auto;
     }
-    
     .requirements-list {
         grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
     }
@@ -274,12 +299,10 @@ header .container {
     .faq-question h3 {
         font-size: 1.6rem;
     }
-    
     .cta-buttons {
         flex-direction: column;
         align-items: center;
     }
-    
     .cta-buttons .btn {
         width: 100%;
         margin-bottom: 1rem;
@@ -294,17 +317,17 @@ header .container {
         height: 20rem;
     }
     header {
-        -webkit-text-fill-color: #000000; /* Ensure menu bar items are always black on mobile */
+        -webkit-text-fill-color: #000000;
+        /* Ensure menu bar items are always black on mobile */
         color: #000000;
     }
 }
-  /*  written by Kaushal  */
 
 
-
+/*  written by Kaushal  */
 
 @media (max-width: 576px) {
-    .page-hero .container{
+    .page-hero .container {
         padding-top: 70%;
     }
-  }
+}
