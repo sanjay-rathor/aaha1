@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "https://apolloaha.com/*"
-  to = "https://www.apolloaha.com/:splat"
-  status = 301
-  force = true
